@@ -10,6 +10,10 @@ loginForm.addEventListener('submit', function (event) {
             email: emailInput.value,
             password: passwordInput.value,
     };
-     
+console.log(formData);
+loginForm.reset();
 }
+
 });
+
+
